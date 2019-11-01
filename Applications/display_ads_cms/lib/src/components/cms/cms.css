@@ -1,0 +1,12 @@
+.admin-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-form > material-input {
+    width: 25%;
+}
+
+.material-navigation > a {
+    background-color: unset;
+}

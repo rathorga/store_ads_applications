@@ -1,0 +1,7 @@
+<div *ngIf="imageToDisplay != ''" class="ads-mode-on"
+     [style.background-image]="'url(' + imageToDisplay + ')'" >
+</div>
+
+<div *ngIf="imageToDisplay == '' && imageNotFound == true" class="base-card info-text">
+    No ads to display.
+</div>
